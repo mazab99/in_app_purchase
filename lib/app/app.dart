@@ -12,6 +12,7 @@ class MyApp extends HookConsumerWidget {
     useInAppPurchaseController(ref);
 
     return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter in-app-purchase',
       home: HomePage(),
     );
